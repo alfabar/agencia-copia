@@ -1,11 +1,12 @@
 <p align="center">
   <p align="center">
-    <a href="https://carretomaisfrete.com.br" target="_blank">
+    <a href="" target="_blank">
       <img src="/imagens/logo.png" alt="agencia colors" height="72">
     </a>
   </p>
   <p align="center">
-    Agencia colors
+    Agencia colors <br>
+    este repositorio contem um site criado com html e javascript desenvolvido em aula com mestre Klaibert no curso de desenvolvedor FullStack Senac
   </p>
 </p>
 
@@ -15,7 +16,7 @@
   <a href="https://youtube.com.br"><img src="" width="290"></a>
 </p>
 
-este repositorio contem um site criado com html e javascript desenvolvido em aula com mestre Klaibert
+
 [para mais tutoriais acesse](https://youtube.com.br)
 
 
@@ -23,9 +24,9 @@ este repositorio contem um site criado com html e javascript desenvolvido em aul
 
 HTML
 
-## CSS desenvolvido
+## ESTILO 
 
-`CSS
+CSS
 
 <div align="center">
 
@@ -35,4 +36,3 @@ HTML
 <a href="https://www.twitter.com" target="_blank"><img src="https://img.shields.io/badge/Twitter-%231877F2.svg?&style=flat-square&logo=twitter&logoColor=white" alt="Twitter"></a>
 
 </div>
-b
