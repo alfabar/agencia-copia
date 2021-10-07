@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+/*
+
+Texto corrido: font-family: 'Merriweather', serif;
+
+Título: font-family: 'Oswald', sans-serif;
+
+*/
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 18px;
+    scroll-behavior: smooth;
+    scroll-padding-top: 40px;
+}
+
+img,
+iframe {
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    text-align: center;
+    background: white;
+    position: sticky;
+    top: 0;
+    padding-bottom: 0.1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    padding: .5rem .7rem;
+    border-botton: 4px solid rgb(255, 339, 60);
+}
+
+nav a:hover,
+nav a:active {
+    background: #26ccca;
+    color: #333;
+}
+
+
+/* nav li {
+    display: inline;
+} */
+
+
+/* sections */
+
+section {
+    height: 73vh;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    padding-left: 1rem;
+}
+
+section h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+section p {
+    line-height: 1.9rem;
+}
+
+.cta {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    font-size: .8rem;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: rgb(252, 255, 71);
+    padding: 1.15rem 1.8rem;
+    line-height: 5.5rem;
+    color: black;
+}
+
+.cta:hover {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    font-size: .8rem;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    padding: 1.15rem 1.8rem;
+    line-height: 5.5rem;
+    color: rgb(255, 255, 255);
+}
+
+.cta::before {
+    content: "+";
+}
+
+.bt-verde-agua {
+    background: #26ccca;
+    color: white;
+}
+
+.bt-verde-agua:hover {
+    background: #ffffff;
+    color: #26ccca;
+}
+
+#acessibilidade {
+    position: fixed;
+    left: 0;
+    bottom: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+#produto {
+    background-image: url(/imagens/fundo1.png);
+    background-size: cover;
+    background-position-x: center;
+}
+
+#ux {
+    color: white;
+    background-image: url(/imagens/fundo5.png);
+}
+
+#motion {
+    background-image: url(/imagens/fundo2.png);
+    background-size: cover;
+    background-position-x: center;
+}
+
+#brand {
+    color: white;
+    background-image: url(/imagens/fundo4.png);
+}
+
+.texto-cinza {
+    color: #999;
+}
+
+#print {
+    background-image: url(/imagens/fundo3.png);
+    background-size: cover;
+    background-position-x: center;
+    color: white;
+}
+
+.centraliza {
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (min-width:700px) {
+    body {
+        background: rgb(255, 239, 60);
+    }
+    .conteudo {
+        width: 50%;
+        max-width: 800px;
+        margin: 0;
+        margin-left: 4rem;
+    }
+    section h1 {
+        font-size: 3rem;
+        margin-bottom: -0.6rem;
+        padding: 2.5rem .2rem;
+    }
+    #produto,
+    #motion,
+    #print {
+        background-attachment: fixed;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 10vh;
+    }
+    header div {
+        width: 25%;
+    }
+    header nav {
+        width: 65%;
+        max-width: 800px;
+    }
+    nav a {
+        font-size: 1.1rem;
+        padding: 0.7rem 1rem;
+    }
+}

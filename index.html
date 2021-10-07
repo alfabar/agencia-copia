@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sites profissionais responsivos, loja virtual, UX Design - Agência Colors</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- estilo css -->
+
+    <!-- Favicon -->
+    <!-- chat css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="dist/jquery.convform.css">
+    <link rel="stylesheet" href="chat.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <section class="centraliza">
+        <h2>Verificação idade</h2>
+        <p>Informe sua idade ou informe o ano de nascimento para verificarmos se nosso conteudo é apropriado</p>
+    </section>
+    <script>
+        //o basico mal feito
+        /*  let nasc = prompt("Digite o ano de nascimento com 4 digitos");
+         document.write("<br>voçê tem " + (2021 - nasc) + " anos."); */
+
+        /*  let nasc = prompt(" Digite o ano de nascimento com 4 digitos")
+         let anoAtual = new Date().getFullYear();
+         document.write("voçê tem " + (anoAtual - nasc) + " anos."); */
+
+        /*  let nasc = prompt(" Digite o ano de nascimento com 4 digitos")
+         let anoAtual = new Date().getFullYear();
+         let idade = anoAtual - nasc;
+
+         if (idade < 18) {
+             document.write("Voçe ainda não tem idade para acessar a agencia colors");
+         } else {
+             document.write("que bom que voçe chegou a agencia colors");
+             window.location.href = "/index.html";
+         } */
+
+        //direcinando apos 5 segundos
+
+        let nasc = prompt(" Digite o ano de nascimento com 4 digitos")
+        let anoAtual = new Date().getFullYear();
+        let idade = anoAtual - nasc;
+
+        if (idade < 18) {
+            document.write("Voçe ainda não tem idade para acessar a agencia colors");
+        } else {
+            document.write("que bom que voçe chegou a agencia colors");
+
+            setTimeout(function() {
+                window.location = "intro.html";
+            }, 3000);
+        }
+    </script>
+</body>
+
+</html>
