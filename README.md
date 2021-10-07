@@ -6,14 +6,14 @@
   </p>
   <p align="center">
     Agencia colors <br>
-    este repositorio contem um site criado com html e javascript desenvolvido em aula com mestre Klaibert no curso de desenvolvedor FullStack Senac
+    este repositorio contem um site criado com html e javascript desenvolvido em aula com mestre Klaibert no curso de desenvolvedor FullStack
   </p>
 </p>
 
 # Agencia colors 
 
 <p align="center">
- <iframe width="560" height="315" src="https://www.youtube.com/embed/v_7grNuf-PQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <a href="https://youtube.com.br"><img src="/imagens/senac.jpg" width="290"></a>
 </p>
 
 
